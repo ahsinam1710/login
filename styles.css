@@ -1,8 +1,8 @@
 body {
   top: 0;
   left: 0;
-  padding: 0;
   margin: 0;
+  padding: 0;
   height: 100vh;
   width: 100%;
   font-family: arial;
@@ -12,22 +12,22 @@ body {
 .form_body {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 30%;
   transform: translate((-50%, -50%));
   height: 390px;
   width: 400px;
   border-radius: 10px;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
   border: 1px solid #2980b9;
 }
 
 .form_body img {
   height: 120px;
-  width: 120px;
+  width: 120;
   position: relative;
   left: 33%;
-  margin-top: -20%;
+  margin-top: -16%;
 }
 
 .form_body .text {
@@ -36,7 +36,6 @@ body {
   color: white;
   margin-left: 120px;
   margin-top: -5px;
-  /* border-bottom: 2px solid; */
   border-radius: 3px;
   width: -1px;
 }
@@ -47,7 +46,6 @@ body {
   margin-left: 45px;
   padding-left: 10px;
   color: white;
-  /* outline: none; */
   border: none;
   border: 1px solid white;
   border-radius: 2px;
@@ -66,9 +64,8 @@ body {
   font-size: 16px;
   color: white;
 }
-
 .form_body input:hover {
-  transition: 5s;
+  transition: 0.5s;
   border: 1px solid #2980b9;
   color: #3498db;
 }
